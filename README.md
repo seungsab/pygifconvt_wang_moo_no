@@ -19,8 +19,8 @@ $ pip install git+'repository'
 
 ## Quick start
 ```python
- >>> from pygifconvt.converter import GifConverter
- >>> c = GifConverter("your original images path", 'your gif output path', (320,240))
+ >>> from pygifconvt_WangMooNo.MooNo_converter import GIF_Converter
+ >>> c = GIF_Converter("your original images path", 'your gif output path', (320,240))
  >>> c.convert_gif()
 ```
 
